@@ -7,9 +7,9 @@ from math import radians, cos, sin, asin, sqrt
 app = Flask(__name__)
 
 # ====== WHATSAPP CONFIG ======
-VERIFY_TOKEN = os.getenv("Taxialeeher2026")
-WHATSAPP_TOKEN = os.getenv("EAASPaDmsumQBQ5k1ekyZAp4GGeGYlBdMXJCVtBtNUsby2RhhBihQYd6JZAkWblQArrOD5ud6RXKPkIQu6kty8jCS4fheOAIx946xZCO9f40MgFAYOVFLZCxHjz2kabxQUvNfHQhk7WRqyKTpASfhFXoyPqVAOx0l4i8ZBV57yd7rmIKWgVeBCGBZALpXT1Sr4RFH0HaZCYK9FRERuaeSZCGjA4yNHOA55529cAnaDnUZD")
-PHONE_NUMBER_ID = os.getenv("989627260907665")
+VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
+WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
+PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
 
 # ====== TAXI PRICING ======
 BASE_PRICE = 100
